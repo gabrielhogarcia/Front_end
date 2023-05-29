@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('./style.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.flex-box{
+    display: flex;
+    width: 1016px;
+    height: 609px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    margin-top: 60px;
+}
+
+
+
+.logo{
+    height: 78px;
+    width: 78px;
+    margin-bottom: 63px;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 110%;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+label{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 112%;
+    letter-spacing: -1px;
+    color: #89C400;
+
+}
+
+input{
+    padding-left: 10px;
+    gap: 10px;
+    width: 287.75px;
+    height: 48px;
+    background: rgba(137, 196, 0, 0.1);
+    border: 1px solid #89C400;
+    border-radius: 53px;
+    color: #89C400 ;
+}
+
+.button-entrar{
+    width: 113px;
+    height: 50px;
+    background: #89C400;
+    border-radius: 30px;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 112%;
+}
+
+.button-cadastro{
+    width: 113px;
+    height: 50px;
+    background: transparent;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112%;
+    letter-spacing: -1px;
+    color: #7A7786;
+
+}
+
+form{
+    width: 520px;
+    height: 609px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-image{
+    width: 496px;
+    height: 609px;
+    background: #E8E8E8;
+
+    border-radius: 0px 14px 14px 0px;
+}
